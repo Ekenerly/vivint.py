@@ -1,0 +1,32 @@
+GET @ "https://ps18.pubnub.com/subscribe/sub-c-638b7dcf-84f3-442b-8eca-f3efa4bd057c/PlatformChannel"
+
+[
+  [ // If the 
+    {
+      "_id": 42138025481253,
+      "da": {
+        "csce": "home",
+        "plctx": {
+          "ctxd": null,
+          "ctxid": "edf467e797842913f97b11bb",
+          "ctxt": 10,
+          "mid": "585c79932593243672c5d8a8",
+          "ts": "2018-05-27T22:23:05.049000"
+        },
+        "proph.csce": [ // Note the .notation to index into a document in the object it cares about
+          {
+              "val": "sleep"
+          },
+          {
+              "val": "home"
+          }
+        ]
+      },
+      "dseq": 4795401,
+      "op": "u",
+      "panid": 42138025481253,
+      "t": "account_system"
+    }
+  ],
+  "15274606422065826" // Timestamp in 100ns units
+]
